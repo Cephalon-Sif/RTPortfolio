@@ -1,0 +1,63 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: rgb(39, 31, 31);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+    font-size: 24px;
+}
+
+.navbar a{
+    padding-left:10px;
+    font-size: 24px;
+}
+
+/* This section involves the introduction message that explains a bit of what the site contains */
+    .introductionSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .introductionText{
+        display: absolute;
+    }
+
+@media screen and (max-width: 320px) {
+    #imgOfMe{
+        padding-left: 15%;
+        height: 220px;
+        width: 220px;
+        display: inline-block;
+    }
+}
+
+/* This section contains a picture of myself and a summary of the journey I have taken */
+@media screen and (min-width: 480px){
+    .aboutMeSection{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* This section contains all of the projects being displayed via github repo or video demo */
+.githubRepoSection{
+    display: flex;
+    justify-content: center;
+}
+
+.videodDemoSection{
+    display: flex;
+    justify-content: center;
+}
